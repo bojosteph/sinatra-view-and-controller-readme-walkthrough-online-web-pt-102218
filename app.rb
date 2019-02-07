@@ -15,6 +15,7 @@ class App < Sinatra::Base
   get '/friends' do
     
     @friends = 
+    
     erb :friends
 
   end
